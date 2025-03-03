@@ -1,0 +1,35 @@
+{
+  "name": "big-a-api",
+  "version": "1.0.0",
+  "description": "A股node.js调用接口",
+  "main": "build/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "npx tsc",
+    "test": "npm run build && node build/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy445566/big-a-api.git"
+  },
+  "keywords": [
+    "stock",
+    "A股",
+    "上证指数",
+    "api",
+    "sdk"
+  ],
+  "author": "zy445566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zy445566/big-a-api/issues"
+  },
+  "homepage": "https://github.com/zy445566/big-a-api#readme",
+  "devDependencies": {
+    "@types/node": "^16.18.126",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
