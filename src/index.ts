@@ -1,4 +1,3 @@
-import { time } from 'console';
 import fetch from 'node-fetch'
 
 type SeriesIntervalType = 'day'| 'week' | 'month'
