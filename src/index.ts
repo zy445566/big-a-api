@@ -16,6 +16,7 @@ export const getSeriesData = async ({code,interval,limit}:{code:string,interval:
             high: item[3],
             low: item[4],
             volume: item[5],
+            amount: item[8]*10000,
         }
     })
 }
